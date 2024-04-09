@@ -3,6 +3,7 @@
     --firstsectionColor: #8576FF;
     --secondsectionColor: #40A2D8;
     --imageColor: #1B1A55;
+    --hoverColor: #A3FFD6;
 
     --mainColor: #142850;
     --secondaryColor: #27496D;
@@ -46,6 +47,15 @@ p, li, span, label, input, textarea, a{
 
 p{
     font-size: 18px;
+}
+
+pre{
+    color: var(--secondaryText);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 14px;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 a{
@@ -122,6 +132,17 @@ h6 { font-size: 16px;}
         'nav-wrapper nav-wrapper'
         'left-column right-column'
     ;
+    margin-bottom: 40px;
+}
+
+.question-wrapper{
+    background-color: var(--imageColor);
+    border-radius: 15px;
+
+    -webkit-box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.75);
+    padding: 10px;
     margin-bottom: 40px;
 }
 
@@ -220,7 +241,8 @@ h6 { font-size: 16px;}
 #green-mode{
     background-color: #32502E;
 }
-#settings-note{
+
+.settings-note{
     font-size: 12px;
     font-style: italic;
     text-align: center;
@@ -236,6 +258,11 @@ h6 { font-size: 16px;}
 .primer-texto{
     margin: 0 auto;
     text-align: center;
+    padding: 0% 10%;
+}
+
+.segundo-texto{
+    margin: 0 auto;
     padding: 0% 10%;
 }
 
@@ -318,6 +345,10 @@ h6 { font-size: 16px;}
     font-size: 16px;
 }
 
+#question{
+    margin: 0 auto;
+}
+
 #contact-form{
     display: block;
     max-width: 600px;
@@ -348,20 +379,24 @@ h6 { font-size: 16px;}
     font-size: 16px;
 }
 
+#btn-div{
+    margin: 0 auto;
+}
+
 #submit-btn{
     margin-top: 10px;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 50%;
     border-radius: 5px;
     color: var(--secondaryText);
-    background-color: var(--btnColor);
+    background-color: var(--secondsectionColor);
     border: none;
+    margin: 0 auto;
+    display: block;
 }
 
 #submit-btn:hover{
     transition: all 0.3s ease 0s;
-    background-color: var(--themeDotBorder);
+    background-color: var(--hoverColor);
     cursor: pointer;
 }
 
@@ -402,5 +437,9 @@ h6 { font-size: 16px;}
     .about-wrapper{
         padding: 20px 0px;
         gap: 20px;
+    }
+
+    #submit-btn{
+        width: 80%;
     }
 }
