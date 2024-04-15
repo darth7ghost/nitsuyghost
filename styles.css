@@ -172,16 +172,6 @@ h6 { font-size: 16px;}
     margin-left: 5px;
 }
 
-#dot-1{
-    background-color: #fc6058;
-}
-#dot-2{
-    background-color: #fec02f;
-}
-#dot-3{
-    background-color: #2aca3e;
-}
-
 .browser-dot{
     background-color: black;
     height: 15px;
@@ -205,41 +195,6 @@ h6 { font-size: 16px;}
     width: 275px;
     object-fit: cover;
     border-radius: 5px;
-}
-
-#theme-options-wrapper{
-    display: flex;
-    justify-content: center;
-}
-
-.theme-dot{
-    transition: all 0.3s ease 0s;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    margin: 5px;
-    border: 2px solid var(--themeDotBorder);
-    -webkit-box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px -1px 4px -1px rgba(0,0,0,0.75);
-    cursor: pointer;
-}
-
-.theme-dot:hover{
-    border-width: 5px;
-}
-
-#blue-mode{
-    background-color: #27496D;
-}
-#purple-mode{
-    background-color: #3E065F;
-}
-#light-mode{
-    background-color: #D3E4CD;
-}
-#green-mode{
-    background-color: #32502E;
 }
 
 .settings-note{
@@ -347,36 +302,6 @@ h6 { font-size: 16px;}
 
 #question{
     margin: 0 auto;
-}
-
-#contact-form{
-    display: block;
-    max-width: 600px;
-    margin: 0 auto;
-    border: 1px solid var(--borderColor);
-    padding: 15px;
-    border-radius: 5px;
-    background-color: var(--mainColor);
-    margin-bottom: 50px;
-}
-
-.input-field{
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: var(--secondaryColor);
-    border-radius: 5px;
-    border: 1px solid var(--borderColor);
-    font-size: 18px;
-}
-
-#contact-form label{
-    line-height: 2.7em;
-}
-
-#contact-form textarea{
-    min-height: 100px;
-    font-size: 16px;
 }
 
 #btn-div{
